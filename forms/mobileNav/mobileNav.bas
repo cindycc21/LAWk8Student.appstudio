@@ -1,18 +1,18 @@
-hmbMenu.onclick = function(s) {
-  if (typeof(s) == "object") {
+hmbMenu.onclick = Function(s) {
+  If (typeof(s) == "object") {
     return
-  } else {
+  } Else {
     switch (s) {
-      case "dessertVoting":
+      Case "Dessert Voting":
         ChangeForm(dessertVoting)
         break
-      case "describeYou":
+      Case "Describe You":
         ChangeForm(describeYou)
         break
-      case "FfavExercises":
+      Case "Favorite Exercises":
         ChangeForm(favExercises)
         break
-      case "mobileNav":
+      Case "Mobile Nav":
         ChangeForm(mobileNav)
         break
     }
