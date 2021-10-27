@@ -7,8 +7,6 @@ dessertVoting.onshow=function(){
   /* add a loop here that adds all the desserts in the array 
      to the dropdown.
   */
-  for (i = 0; i < k; i++)
-      output i
 }
 
 
